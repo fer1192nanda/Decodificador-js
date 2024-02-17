@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificadoe codificador</title>
+    <link rel="stylesheet" href="./chal.css">
+</head>
+<body>
+    <main class="main container">
+        <header class="cabecalho">
+          <img src="./image/images.png" alt="logo Fernanda">
+          <h1>Mensagens Codificadas</h1>
+        </header>
+        <div class="container-input">
+        <div class="input">
+           <textarea  id="input-texto" placeholder="Digite seu texto aqui..."></textarea>
+           <p>ATENÇÃO: Apenas letras maiusculas e sem acento!</p>
+       </div>
+
+
+        <div id="output">
+           <img src="./image/images.png" alt="logo Fernanda" height="230px" width="400px">
+           <h2>Sua mensagem aparecerá aqui!</h2>
+           <span>Digite um texto que deseja criptografar ou descriptografar.</span>
+        </div>
+       </div>
+
+       
+        <div class="buttons">
+            <div class="container-bnt">
+               <button  onclick="criptografar()" class="btn-criptografar">Criptografar</button>
+               <button  onclick="descriptografar()" class="btn-descriptografar">Descriptografar</button>
+            </div>
+           
+        </div>
+    </main>
+
+    <footer class="rodape">
+       <div class="icons">
+       <a href="https://github.com/fer1192nanda"><ion-icon name="logo-github"></ion-icon></a>
+   </div>
+       <h3>Desenvolvido por Fernanda Rodrigues</h3>
+    </footer>
+
+    <script src="interacao/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    
+<script src="./challenge.js"></script>
+
+</body>
+
+</html>
+    
