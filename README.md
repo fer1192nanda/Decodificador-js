@@ -2,7 +2,7 @@
 
 ## Tecnologias Utilizadas:
 
--Html
+- Html
 - Css
 - Java Script
 - Git Hub
